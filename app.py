@@ -1,6 +1,6 @@
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
-import sounddevice as sd 
+#import sounddevice as sd 
 import pandas as pd 
 import streamlit as st
 import sounddevice as sd
