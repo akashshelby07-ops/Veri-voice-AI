@@ -199,15 +199,15 @@ duration = 5
 sample_rate = 44100
 
 
-audio_file = open("sample.wav", "rb")
-audio_bytes = audio_file.read()
+#audio_file = open("sample.wav", "rb")
+#audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format="audio/wav")
+#st.audio(audio_bytes, format="audio/wav")
     # Extract features from the recorded audio
-features = extract_features("sample.wav")
+#features = extract_features("sample.wav")
 
 # Predict using the trained model
-prediction = model.predict(features)
+#prediction = model.predict(features)
 
 # Display the result
 st.subheader("Analysis Result")
